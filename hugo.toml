@@ -1,0 +1,5 @@
+baseURL = 'https://example.org/'
+locale = 'en-cn'
+title = '康神开播了？真的假的'
+
+theme = "PaperMod"
