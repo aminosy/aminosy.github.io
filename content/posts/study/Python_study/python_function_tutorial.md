@@ -1,8 +1,9 @@
 +++
 date = '2026-09-20T16:50:50+08:00'
-draft = true
+draft = false
 title = 'Python_function_tutorial'
 +++
+#前面的知识不算难，而且我是在学到函数是才接触的博客，就不补前面的东西了
 
 一、基础题（参数与返回值）
 1. 两数之和
@@ -30,3 +31,27 @@ b = int(input())
 print(add(a,b))
 
 2.
+def is_even(n:int) -> bool:
+    if n % 2 == 0:
+        return True
+n = int(input())
+if is_even(n):
+    print('偶数')
+else:
+    print('奇数')
+
+3.
+def max_of_three(a,b,c):
+    if a >= b and a >= c:
+        return a
+    elif b >= a and b >= c:
+        return b
+    elif c >= a and c >= b:
+        return c
+a = float(input())
+b = float(input())
+c = float(input())
+
+print(max_of_three(a,b,c))
+
+4.
