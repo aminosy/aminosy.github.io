@@ -56,3 +56,17 @@ c = float(input())
 print(max_of_three(a,b,c))
 
 4.
+def celsius_to_fahrenheit(c:float) ->float:
+    f = c * 9 / 5 + 32
+    return f
+
+c = float(input('input c'))
+print(celsius_to_fahrenheit(c))
+
+5.
+def reverse_string(s: str) -> str:
+    return ''.join(reversed(s))
+
+text = input('请输入字符串: ')
+print(reverse_string(text))
+
